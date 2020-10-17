@@ -190,3 +190,17 @@ section .icon {
     font-size: 50px;
     font-weight: 700;
 }
+
+#emailform{
+    position: relative;
+}
+#emailform::after{
+    content:"";
+    background: rgba(0,0,0,0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+#emailform._sending::after{
+    opacity: 1;
+    visibility: visible;
+}
