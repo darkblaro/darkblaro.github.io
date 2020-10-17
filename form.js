@@ -1,3 +1,4 @@
+"use strict";
 document.addEventListener('DOMContentLoader',function(){
     let form=document.getElementById("emailform");
     form.addEventListener("submit",formsend);
